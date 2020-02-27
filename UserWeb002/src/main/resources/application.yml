@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: UserWeb02
+  thymeleaf:
+    cache: false
+server:
+  port: 7002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka,http://localhost:9999/eureka
